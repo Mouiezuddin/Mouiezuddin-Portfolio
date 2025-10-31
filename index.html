@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mouiezuddin Killedar — Full‑Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Mouiezuddin Killedar — Full Stack Web Developer. HTML, CSS, JS projects with animations." />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="reveal">
+            <div class="logo">
+                <div class="mark">MK</div>
+                <div>
+                    <div style="font-weight:800">Mouiezuddin Killedar</div>
+                    <div style="font-size:12px;color:var(--muted)">Full‑Stack Web Developer</div>
+                </div>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#" onclick="downloadResume(event)">Resume</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="projects" style="margin-top:28px">
+                <h2 class="reveal">Selected Projects</h2>
+                <div class="projects">
+                    <article class="project reveal" tabindex="0"
+                        onclick="window.open('https://mouiezuddin.github.io/Whack-a-Mole-game/', '_blank')"
+                        style="cursor:pointer">
+                        <h4>Whack‑a‑Mole</h4>
+                        <p>Interactive browser game with scoreboard and sound effects.</p>
+                    </article>
+
+                    <article class="project reveal" tabindex="0" data-title="Animated Portfolio"
+                        data-desc="Animated portfolio site built with HTML, CSS & JS." data-tech="HTML, CSS, JS">
+                        <h4>Animated Portfolio</h4>
+                        <p>Responsive portfolio showcasing projects and contact details.</p>
+                    </article>
+
+                    <article class="project reveal" tabindex="0" data-title="Spotify Clone"
+                        data-desc="Music player inspired by Spotify built using HTML, CSS & JS."
+                        data-tech="HTML, CSS, JS">
+                        <h4>Spotify Clone</h4>
+                        <p>Music streaming interface with playlists and basic playback controls.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
